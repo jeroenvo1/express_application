@@ -1,0 +1,14 @@
+{
+  "name": "express_application",
+  "version": "1.0.0",
+  "description": "Express test application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jeroen van Ottelen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
