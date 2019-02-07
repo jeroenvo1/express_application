@@ -1,7 +1,7 @@
 # docker image build -t express_application .
 # docker run -d -p 3000:3000 --rm express_application
 
-FROM node:9.5.0
+FROM hypriot/rpi-node
 
 # Create app directory
 WORKDIR /app
