@@ -4,7 +4,9 @@
   "description": "Express test application",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "docker-build": "docker image build -t express_application .",
+    "docker-run": "docker run -d -p 3000:3000 --rm express_application"
   },
   "author": "Jeroen van Ottelen",
   "license": "ISC",
